@@ -1,0 +1,67 @@
+body {
+    margin: auto 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+div.container{
+    width: 800px;
+    height: 600px;
+    background-color: whitesmoke;
+    margin: 0px;
+    padding: 0;
+}
+
+/* NAV */
+nav {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 1em;
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #cccccc;
+}
+
+/* Main -> Image */
+div.about {
+    display: flex;
+    margin: 0px;
+}
+
+div.about img{
+    width: 15em;
+    border-radius: 100em;
+    margin-right: 1em;
+}
+
+/* FOOTER */
+footer{
+    margin-top: auto;
+}
+
+footer span{
+    display: block;
+    margin-bottom: 0.5em;
+}
