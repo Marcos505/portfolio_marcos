@@ -10,11 +10,22 @@ body {
 }
 
 div.container{
-    width: 800px;
-    height: 600px;
+    width: 80vw;
+    height: 60vh;
     background-color: whitesmoke;
     margin: 0px;
     padding: 0;
+    border-radius: 2em;
+}
+
+div.profile{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+
+div.container nav ul li a.borda:hover{
+    border-radius: 2em 0em 0em 0em;
 }
 
 /* NAV */
@@ -47,7 +58,9 @@ nav ul li a:hover {
 /* Main -> Image */
 div.about {
     display: flex;
-    margin: 0px;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
 
 div.about img{
@@ -57,7 +70,8 @@ div.about img{
 }
 
 /* FOOTER */
-footer{
+div.container footer {
+    text-align: center;
     margin-top: auto;
 }
 
