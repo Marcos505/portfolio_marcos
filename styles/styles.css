@@ -1,31 +1,24 @@
-body {
-    margin: auto 0;
+body{
+    margin: 0px;
+    padding: 0px;
     width: 100vw;
     height: 100vh;
-    background-color: black;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    background-image: url(../assents/background.png);
+    background-color: #161616;
 }
 
-div.container{
+body div.container{
     width: 80vw;
     height: 60vh;
-    background-color: whitesmoke;
-    margin: 0px;
-    padding: 0;
-    border-radius: 2em;
-}
-
-div.profile{
-    margin: 0px;
-    padding: 0px;
     display: flex;
-}
-
-div.container nav ul li a.borda:hover{
-    border-radius: 2em 0em 0em 0em;
+    flex-direction: column;
+    background-color: whitesmoke;
+    border-radius: 2em;
+    padding: 0 0.5em 0 0.5em;
 }
 
 /* NAV */
@@ -55,27 +48,14 @@ nav ul li a:hover {
     background-color: #cccccc;
 }
 
-/* Main -> Image */
-div.about {
+/* Profile */
+body div.container div.about div.profile{
     display: flex;
-    flex-direction: column;
-    margin: 0;
-    padding: 0;
+    padding: 0.25em;
 }
 
-div.about img{
+body div.container div.about div.profile img{
     width: 15em;
     border-radius: 100em;
     margin-right: 1em;
-}
-
-/* FOOTER */
-div.container footer {
-    text-align: center;
-    margin-top: auto;
-}
-
-footer span{
-    display: block;
-    margin-bottom: 0.5em;
 }
