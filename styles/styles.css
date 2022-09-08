@@ -3,59 +3,36 @@ body{
     padding: 0px;
     width: 100vw;
     height: 100vh;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    background-image: url(../assents/background.png);
-    background-color: #161616;
-}
-
-body div.container{
-    width: 80vw;
-    height: 60vh;
-    display: flex;
-    flex-direction: column;
-    background-color: whitesmoke;
-    border-radius: 2em;
-    padding: 0 0.5em 0 0.5em;
+    background-image: linear-gradient(#9500EB, #DA00EB);
 }
 
 /* NAV */
-nav {
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-}
-
-nav ul {
+nav ul{
     margin: 0;
     padding: 0;
-    
 }
 
-nav ul li {
+nav ul li{
     display: inline-block;
 }
 
-nav ul li a {
+nav a{
     display: inline-block;
-    padding: 1em;
-    color: black;
+    padding: 0.5em;
+    /*margin-left: 2rem;*/
+    color: whitesmoke;
     text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+    font-size: 500;
 }
 
-nav ul li a:hover {
-    background-color: #cccccc;
-}
-
-/* Profile */
-body div.container div.about div.profile{
+/* MAIN */
+main{
     display: flex;
-    padding: 0.25em;
+    padding: 0.5em;
 }
 
-body div.container div.about div.profile img{
-    width: 15em;
-    border-radius: 100em;
-    margin-right: 1em;
+main div.profile img{
+    width: 20em;
+    border-radius: 10em;
 }
